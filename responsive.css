@@ -1,18 +1,5 @@
 
-@media screen and(max-width:995px){
-    #container{
-        width: 100%;
-    }
-    #left-columm{
-        width: 70%;
-    }
-    #right-columm{
-        width: 30%;
-    }
-    img{
-        width: 100%;
-    }
-}
+
 
 /* MEDIA QUIRIES (Responsive)***********/
 
