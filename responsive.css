@@ -3,7 +3,7 @@
 
 /* MEDIA QUIRIES (Responsive)***********/
 
-@media screen and (max-width:1140px) {
+@media all and (max-width:1140px) {
     .container{
         width: 100%;
     }
@@ -33,7 +33,7 @@
 
 /* Untuk ukuran layar 700px kebawah  */
 
-@media screen and (max-width:780px) {
+@media all and (max-width:780px) {
     .header,
     .footer{
         text-align: center;
