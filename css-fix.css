@@ -4,14 +4,15 @@
 }
 
 body{
-    width: 100%;
+    width: 1000%;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-color: #dedede;
 }
 
 .marquee{
     background-color: #ffffffd7;
-    color: #0006ff
+    color: #0006ff;
+    width: 1000px;
 }
 
 p{
@@ -209,72 +210,4 @@ a:hover{
     clear: both;
     border: 1px solid #dedede;
     padding: 15px;
-}
-
-@media screen and(max-width:995px){
-    #container{
-        width: 100%;
-    }
-    #left-columm{
-        width: 70%;
-    }
-    #right-columm{
-        width: 30%;
-    }
-    img{
-        width: 100%;
-    }
-}
-
-/* MEDIA QUIRIES (Responsive)***********/
-
-@media screen and (max-width:1140px){
-    .container{
-        width: 100%;
-    }
-    .left{
-        width: 25%;
-        background: #0c7575d7;
-    }
-    .middle{
-        width: 68%;
-        float: right;
-    }
-     .middle2{
-        width: 90%;
-        float: right;
-    }
-
-
-
-    .right{
-        clear: both;
-        padding: 1% 4%;
-        width: auto;
-        float: none;
-        background: #0c7575d7;   
-    }
-}
-
-/* Untuk ukuran layar 700px kebawah  */
-
-@media screen and (max-width:780px){
-    .header,
-    .footer{
-        text-align: center;
-    }
-    .left{
-        width: auto;
-        float: none;
-    }
-
-    .middle{
-        width: auto;
-        float:  none;
-    }
-
-    .right{
-        width: auto;
-        float: none;
-    }
 }

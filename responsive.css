@@ -1,9 +1,22 @@
 
-
+@media all and(max-width:995px){
+    #container{
+        width: 100%;
+    }
+    #left-columm{
+        width: 70%;
+    }
+    #right-columm{
+        width: 30%;
+    }
+    img{
+        width: 100%;
+    }
+}
 
 /* MEDIA QUIRIES (Responsive)***********/
 
-@media all and (max-width:1140px) {
+@media all and (max-width:1140px){
     .container{
         width: 100%;
     }
@@ -33,8 +46,11 @@
 
 /* Untuk ukuran layar 700px kebawah  */
 
-@media all and (max-width:780px) {
-    .header,
+@media all  and (max-width:780px){
+    .header{
+        width:100%;
+        text-align: center;
+    }
     .footer{
         text-align: center;
     }
@@ -51,9 +67,5 @@
     .right{
         width: auto;
         float: none;
-    }
-    
-    .buku{
-        width: 100%;
     }
 }
